@@ -1,0 +1,23 @@
+.Benefits {
+	padding-bottom: 40px;
+}
+.SignUpBenefitInfo {
+	color: rgb(34, 104, 209);
+}
+.PlatformBenefitsInfo {
+	color: gray;
+}
+.checkmarkIcon {
+	width: 30px;
+	height: 30px;
+	padding: 3px 0;
+	text-align: center;
+	background-color: rgba(245, 239, 234, 0.856);
+	border-radius: 50%;
+	margin-right: 5px;
+	font-size: 20px;
+}
+.SignUpBenefits {
+	display: flex;
+	align-items: center;
+}

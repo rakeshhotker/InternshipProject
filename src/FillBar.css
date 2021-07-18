@@ -1,0 +1,13 @@
+.filledFull {
+	width: 130px;
+	height: 10px;
+	border-radius: 40px;
+	background-color: rgb(24, 160, 214);
+	margin-bottom: 10px;
+}
+.filledHalf {
+	width: 70px;
+	height: 10px;
+	border-radius: 40px;
+	background-color: lightgrey;
+}

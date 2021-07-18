@@ -1,0 +1,30 @@
+.details tr td {
+	padding: 15px;
+}
+.details .tableData {
+	width: 20vw;
+	background-color: rgba(113, 243, 243, 0.644);
+	border-radius: 2px;
+}
+.JobDetails {
+	padding-bottom: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: -8px 3px 25px 1px lightgrey;
+	margin-right: 40px;
+}
+
+.tableData div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.checkmark {
+	width: 20px;
+	height: 20px;
+	background: green;
+	border-radius: 50%;
+	box-shadow: inset 0px 0px 0px 2px rgb(238, 227, 227);
+	border: 1px solid white;
+	padding-left: 1px;
+}

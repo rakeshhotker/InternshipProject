@@ -1,0 +1,47 @@
+.ManagePeople {
+	background-color: rgb(216, 252, 250);
+}
+.ManagePeopleContent {
+	padding-top: 10px;
+}
+.HRGuide {
+	margin-left: 5%;
+}
+.AddCandidateWrapper {
+	display: flex;
+	justify-content: space-around;
+}
+.meetingIcon {
+	font-size: 50px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: rgb(24, 160, 214);
+}
+.HRGuideInfo h3 {
+	color: rgb(24, 160, 214);
+}
+#HRtext {
+	text-transform: uppercase;
+	color: rgb(24, 160, 214);
+	font-size: 50px;
+}
+.addCandidate {
+	background-color: white;
+	width: 50vw;
+	border-radius: 10px;
+	box-shadow: -8px 3px 25px 1px lightgrey;
+	margin-left: 5%;
+}
+.JobEmployeeDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.JobDetailDiv {
+	margin-top: -40px;
+}
+.EmployeeDirectoryDiv {
+	margin-top: 40px;
+}
