@@ -6,6 +6,7 @@ import './Home.css';
 import ManageInfo from './ManageInfo';
 import Navbar from './Navbar';
 import Payroll from './Payroll';
+import TimeSaver from './TimeSaver';
 function Home() {
 	return (
 		<div className='Home'>
@@ -18,6 +19,7 @@ function Home() {
 			<div className='employeeBenefits'>
 				<Payroll />
 				<EmpBenefits />
+				<TimeSaver />
 			</div>
 		</div>
 	);

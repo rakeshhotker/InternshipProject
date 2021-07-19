@@ -1,0 +1,42 @@
+.TimeSaver {
+	background-color: white;
+}
+.PayrollBenefits2 {
+	display: flex;
+	justify-content: space-around;
+	margin-top: -25%;
+	padding-top: 5%;
+}
+.BenefitsWrapper2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Icons2 {
+	font-size: 5em;
+	color: gray;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 60px;
+	border-bottom-left-radius: 40px;
+	background-color: rgb(158, 240, 240);
+}
+.TimeSaverInfoDiv {
+	margin-top: 0;
+}
+.TimeSaverInfoDiv {
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+.TimeSaverInfoDivBoldText {
+	word-spacing: 25px;
+	margin-right: 5vw;
+	color: rgb(58, 53, 53);
+}
+.TimeSaverInfoDivtext {
+	color: silver;
+	font-size: 20px;
+	word-spacing: 20px;
+	font-weight: bolder;
+}
