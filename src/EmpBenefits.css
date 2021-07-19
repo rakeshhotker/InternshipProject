@@ -14,8 +14,10 @@
 	margin-left: 5%;
 }
 .empBenefitsDiv {
+	height: 190vh;
 	margin-top: -50px;
 	background-color: rgba(2, 26, 136, 0.788);
+	clip-path: polygon(0 0, 100% 0, 100% 63%, 0 70%);
 }
 .FillFull {
 	width: 200px;
@@ -32,6 +34,7 @@
 	margin-bottom: -10px;
 }
 .benefits {
+	max-height: 80vh;
 	background-color: white;
 	width: 20vw;
 	display: flex;
@@ -43,8 +46,10 @@
 	box-shadow: 1px 3px 8px 1px silver;
 }
 .BenefitsDivWrapper {
+	margin-top: 5%;
 	display: flex;
 	justify-content: space-around;
+	height: 100vh;
 }
 .benefits .emptyDivs {
 	height: 8vh;
@@ -58,7 +63,7 @@
 	align-items: flex-start;
 }
 .BenefitsDiv1 h2 {
-	margin-bottom: -10px;
+	margin-bottom: -5px;
 }
 .BenefitsDiv2 {
 	padding: 15px;
@@ -99,6 +104,7 @@
 	padding-right: 40px;
 	border-radius: 20px;
 	box-shadow: 1px 3px 8px 1px silver;
+	margin-bottom: 10%;
 }
 .cardfirstdiv {
 	display: flex;
@@ -126,4 +132,34 @@
 }
 .mastercardIcon {
 	font-size: 40px;
+}
+.BenefitsDiv3 {
+	width: 45vw;
+	background-color: white;
+	border-radius: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.benefitsSummary {
+	padding-top: 5%;
+	padding-left: 5%;
+}
+#demo1 {
+	margin-right: 10px;
+}
+#demo2 {
+	margin-top: 20px;
+	margin-right: 10px;
+}
+#demo3 {
+	margin-top: -10px;
+}
+.demomedicalcomponents {
+	display: flex;
+	margin-left: 5%;
+}
+.benefitssecondDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }

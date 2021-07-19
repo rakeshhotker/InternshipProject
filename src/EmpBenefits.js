@@ -3,6 +3,7 @@ import './EmpBenefits.css';
 import { BiNotepad } from 'react-icons/bi';
 import { FcCheckmark } from 'react-icons/fc';
 import { RiMastercardLine } from 'react-icons/ri';
+import DemoMedicalComponent from './DemoMedicalComponent';
 function EmpBenefits() {
 	return (
 		<div className='empBenefitsDiv'>
@@ -56,7 +57,7 @@ function EmpBenefits() {
 						</div>
 					</div>
 				</div>
-				<div>
+				<div className='benefitssecondDiv'>
 					<div className='carddiv'>
 						<div className='cardfirstdiv'>
 							<h2 style={{ color: 'black' }}>Tripupp</h2>
@@ -98,7 +99,23 @@ function EmpBenefits() {
 							</div>
 						</div>
 					</div>
-					<div></div>
+					<div className='BenefitsDiv3'>
+						<div className='benefitsSummary'>
+							<h3>Benefits</h3>
+							<p>Here's A Summary Of The Plans Selected.</p>
+						</div>
+						<div className='demomedicalcomponents'>
+							<div id='demo1'>
+								<DemoMedicalComponent />
+							</div>
+							<div id='demo2'>
+								<DemoMedicalComponent />
+							</div>
+							<div id='demo3'>
+								<DemoMedicalComponent />
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
