@@ -1,0 +1,129 @@
+.PadIcon {
+	color: white;
+	font-size: 30px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: rgb(186, 224, 240);
+	padding: 10px;
+}
+.BenefitsGuideInfo h3 {
+	color: rgb(24, 160, 214);
+}
+.BenefitsGuideInfo {
+	padding-top: 20px;
+	margin-left: 5%;
+}
+.empBenefitsDiv {
+	margin-top: -50px;
+	background-color: rgba(2, 26, 136, 0.788);
+}
+.FillFull {
+	width: 200px;
+	border-radius: 40px;
+	height: 10px;
+	background-color: lightgray;
+}
+.FillHalf {
+	width: 150px;
+	border-radius: 40px;
+	height: 10px;
+	background-color: lightgray;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+.benefits {
+	background-color: white;
+	width: 20vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	box-shadow: 1px 3px 8px 1px silver;
+}
+.BenefitsDivWrapper {
+	display: flex;
+	justify-content: space-around;
+}
+.benefits .emptyDivs {
+	height: 8vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.BenefitsDiv1 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.BenefitsDiv1 h2 {
+	margin-bottom: -10px;
+}
+.BenefitsDiv2 {
+	padding: 15px;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: 4px solid rgb(219, 98, 17);
+}
+.checkmarkDiv2 {
+	float: right;
+	background-color: orange;
+	border-radius: 50%;
+	padding: 1px;
+}
+.set2emptyDivs {
+	height: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.EqualDivs {
+	width: 180px;
+	border-radius: 40px;
+	background-color: lightgray;
+	height: 10px;
+}
+.smallDiv {
+	width: 150px;
+	border-radius: 40px;
+	height: 10px;
+	background-color: lightgray;
+}
+.carddiv {
+	width: 25vw;
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(to right, rgb(228, 203, 135), rgb(226, 135, 50));
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 20px;
+	box-shadow: 1px 3px 8px 1px silver;
+}
+.cardfirstdiv {
+	display: flex;
+	justify-content: space-between;
+}
+.cardseconddiv {
+	display: flex;
+	justify-content: space-between;
+}
+.cardthirddiv {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.validthru {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgba(236, 205, 205, 0.788);
+}
+.cardfourthdiv {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.mastercardIcon {
+	font-size: 40px;
+}

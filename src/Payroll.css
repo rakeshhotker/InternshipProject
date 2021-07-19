@@ -1,0 +1,42 @@
+.Payroll {
+	background: white;
+	height: 80vh;
+	clip-path: polygon(0 0, 100% 0, 100% 57%, 0 89%);
+}
+.chartsIcon {
+	font-size: 30px;
+	border-radius: 50%;
+	text-align: center;
+	background-color: rgb(94, 182, 218);
+	padding: 10px;
+}
+.PayrollGuideInfo h3 {
+	color: rgb(24, 160, 214);
+}
+.PayrollGuideInfo {
+	margin-left: 5%;
+}
+#PayrollText {
+	text-transform: uppercase;
+	color: rgb(24, 160, 214);
+	font-size: 50px;
+}
+.PayrollBenefits {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 3%;
+}
+.BenefitsWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Icons {
+	font-size: 5em;
+	color: gray;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 60px;
+	border-bottom-left-radius: 40px;
+	background-color: rgb(158, 240, 240);
+}
