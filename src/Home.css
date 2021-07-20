@@ -9,12 +9,7 @@
 	clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
 }
 .employeeBenefits {
-	background: linear-gradient(
-		to right,
-		rgb(229, 52, 235),
-		rgb(172, 17, 107),
-		rgb(22, 72, 209)
-	);
+	background: (rgb(11, 26, 233));
 }
 /* .Home {
 	background: linear-gradient(

@@ -1,0 +1,254 @@
+.trapeziumdiv {
+	position: relative;
+	padding: 20px;
+	padding-bottom: 8%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.boldtext {
+	font-size: 2em;
+}
+.buttondiv {
+	font-size: 1.5em;
+	background: linear-gradient(to right, rgb(226, 45, 196), rgb(152, 8, 172));
+	border-radius: 40px;
+	padding: 15px 30px;
+	color: white;
+}
+.trapeziumdiv::after {
+	position: absolute;
+	content: '';
+	height: 2vh;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(
+		to right,
+		rgb(229, 52, 235),
+		rgb(172, 17, 107),
+		rgb(22, 72, 209)
+	);
+	/* clip-path: polygon(100% 0%, 0% 100%, 100% 100%); */
+}
+
+.employeeImageDiv {
+	position: relative;
+	max-height: 60vh;
+}
+.employeeImageDiv figcaption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+employeeImageDiv::before {
+	position: absolute;
+	content: '';
+	height: 30vh;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(
+		to right,
+		rgb(192, 147, 194),
+		rgb(172, 17, 107),
+		rgb(22, 72, 209)
+	);
+	clip-path: polygon(100% 0%, 0% 100%, 100% 100%);
+}
+.sampleImage {
+	width: 20vw;
+	height: 60vh;
+}
+.starrating {
+	color: rgb(255, 153, 0);
+}
+.EmpNameDiv {
+	width: 16vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: whitesmoke;
+	opacity: 0.7;
+	border-radius: 5px;
+}
+.EmpName {
+	width: 10vw;
+	background: transparent;
+}
+.ReviewContentDiv {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(3, 50, 180);
+	align-items: center;
+}
+.otherEmployeeImages {
+	width: 40vw;
+	display: flex;
+	justify-content: space-around;
+}
+#image1 img {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+}
+#image2 img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+}
+#image3 img {
+	height: 90px;
+	width: 90px;
+	border-radius: 50%;
+}
+#image4 img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+}
+#image5 img {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+}
+.EmpContentDiv {
+	margin-top: 5%;
+	width: 40vw;
+	padding-left: 5%;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-around; */
+}
+.ArrowButtons {
+	float: right !important;
+	width: 10vw;
+	display: flex;
+	justify-content: space-around;
+}
+.ArrowButton {
+	font-size: 1.5em;
+	padding: 10px 20px;
+	color: white;
+	border: 1px solid silver;
+	background-color: rgb(70, 107, 226);
+}
+.EmpReviews {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 60vh;
+}
+.EmpReview {
+	position: relative;
+	margin-top: 90px;
+	text-align: center;
+	margin-left: 40px;
+	width: 30vw;
+	padding: 40px 0px;
+	border-radius: 10px;
+	background-color: rgb(70, 107, 226);
+}
+.EmpReview::after,
+.EmpReview::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 55%;
+	bottom: 100%;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+.EmpReview::after {
+	bottom: 2px;
+	border-color: transparent transparent transparent rgb(160, 175, 223);
+	border-width: 10px;
+}
+.EmpReview::before {
+	bottom: 2px;
+	border-color: transparent transparent transparent rgb(196, 201, 216);
+	border-width: 11px;
+}
+.reviewContentborder {
+	height: 2vh;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background: linear-gradient(
+		to right,
+		rgb(221, 54, 230),
+		rgb(172, 17, 107),
+		rgb(22, 72, 209)
+	);
+}
+.GetStarted {
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.BoldText h2 {
+	color: rgb(3, 66, 184);
+}
+.getStartedButton {
+	color: whitesmoke;
+	text-align: center;
+	border-radius: 40px;
+	padding: 15px 40px;
+	background: linear-gradient(to right, rgb(233, 11, 177), rgb(235, 11, 134));
+}
+.platformFeatures {
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 5%;
+	word-spacing: 5px;
+}
+.allInOnePlatform {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.allInOnePlatform div {
+	margin-bottom: 10px;
+}
+.Tools {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.Tools div {
+	margin-bottom: 10px;
+}
+.Media {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.contact {
+	display: flex;
+	justify-content: space-between;
+}
+.Gusto {
+	display: flex;
+	flex-direction: column;
+}
+.Gusto div {
+	margin-bottom: 10px;
+}
+.facebookIcon {
+	font-size: 20px;
+	color: blue;
+}
+.instagramIcon {
+	font-size: 20px;
+	color: rgb(230, 44, 199);
+}
+.social {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}

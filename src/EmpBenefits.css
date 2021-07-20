@@ -16,8 +16,8 @@
 .empBenefitsDiv {
 	height: 190vh;
 	margin-top: -50px;
-	background-color: rgba(2, 26, 136, 0.788);
-	clip-path: polygon(0 0, 100% 0, 100% 63%, 0 70%);
+	background-color: rgba(7, 22, 219, 0.788);
+	/* clip-path: polygon(0 0, 100% 0, 100% 63%, 0 70%); */
 }
 .FillFull {
 	width: 200px;

@@ -1,0 +1,45 @@
+.whyUsComponent {
+	padding-top: 2%;
+}
+.backgroundDiv {
+	width: 20vw;
+	height: 30px;
+	background-color: rgb(161, 83, 161);
+	border: 1px solid gray;
+}
+.textdiv {
+	margin-left: 12%;
+	margin-bottom: -3%;
+}
+.whyusdivs {
+	max-height: 70vh;
+	width: 15vw;
+	border-radius: 5px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 25px;
+	background-color: white;
+}
+.whyUsComponent {
+	background-color: rgb(169, 236, 236);
+}
+.whyusdivswrapper {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 50px;
+}
+#whyusdiv1 {
+	margin-top: 2%;
+}
+#whyusdiv2 {
+	margin-top: 5%;
+}
+#whyusdiv4 {
+	margin-top: 5%;
+}
+.divBoldText {
+	font-weight: bold;
+	font-size: 30px;
+}

@@ -1,7 +1,7 @@
 .Payroll {
 	background: white;
 	height: 80vh;
-	clip-path: polygon(0 0, 100% 0, 100% 57%, 0 89%);
+	/* clip-path: polygon(0 0, 100% 0, 100% 57%, 0 89%); */
 }
 .chartsIcon {
 	font-size: 30px;
